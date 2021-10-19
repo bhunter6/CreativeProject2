@@ -1,0 +1,40 @@
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  font: #DDDDDD;
+}
+
+.userInput {
+  text-align: center;
+}
+.page {
+  background-color: #cbffcb;
+}
+
+#weatherResults{
+display: flex;
+flex-direction: column;
+width: 80%;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+border-style: solid;
+margin-left: 10%;
+margin-right: 10%;
+background: rgba(255,255,255, .8);
+}
+#forecastResults{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-style: solid;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: rgba(255,255,255, .8);
+}
